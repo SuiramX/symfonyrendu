@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Supprimer une catégorie de chatons{% endblock %}
+{% block body %}
+    <h1> Bienvenue </h1>
+    <h2> Supprimer une catégorie </h2>
+    {{ form(form)}}
+    <h3> Êtes-vous sûr de vouloir supprimer la catégorie</h3>
+    <a href="{{ path('app_home') }}" class="btn btn-primary">Annuler</a>
+{% endblock %}
